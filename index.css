@@ -50,3 +50,63 @@
 .three {
   top: 63%;
 }
+
+.headline {
+  width: 375px;
+  height: 590px;
+  top: 92px;
+  padding: 120px, 24px, 120px, 24px;
+  display: flex;
+  gap: 12px;
+  background-color: #1c1a19;
+  flex-direction: column;
+  background-image: url(imgs/illustration.png);
+  background-repeat: no-repeat;
+  background-position: 100% 130%;
+}
+
+.primary-text {
+  width: 327px;
+  height: 124px;
+  font-size: 56px;
+  font-family: 'Crete Round', sans-serif;
+  line-height: 64px;
+  font-weight: 400;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-left: 5%;
+  margin-top: 30%;
+  margin-bottom: -5%;
+}
+
+.supporting-text {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin-left: 5%;
+  margin-bottom: -3%;
+}
+
+.description {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-left: 5%;
+}
+
+.social-media {
+  margin-left: 8%;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
