@@ -1,0 +1,52 @@
+.toolbar {
+  width: 375px;
+  height: 48px;
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 75%;
+}
+
+.logo-placeholder {
+  color: #fff;
+  padding: 10px, 12px, 10px, 12px;
+  height: 50%;
+  margin-top: 3%;
+}
+
+.text {
+  width: 70px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 60%;
+  line-height: 24px;
+  text-align: center;
+}
+
+.normal-button {
+  border-radius: 8px;
+  height: 50%;
+  width: 7%;
+  margin-top: 3%;
+  position: relative;
+}
+
+.union {
+  height: 5%;
+  width: 50%;
+  background-color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.one {
+  top: 38%;
+}
+
+.three {
+  top: 63%;
+}
